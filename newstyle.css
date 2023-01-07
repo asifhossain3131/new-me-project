@@ -165,3 +165,57 @@ font-weight: 600;
 font-size: 20px;
 }
 /* footer style */
+footer{
+    background-color: black;
+    height: 500px; width: 100%;
+}
+.footer-container{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.footer-info{
+    width: 485px;
+    height: 317px;
+}
+.footer-info-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 130px;
+     margin-bottom: 15px;
+    color: #F8F8F8
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+margin-bottom: 30px;
+}
+.subscribe{
+    width: 325px;
+    height: 204px;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-bottom: 15px;
+}
+.mail{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px; 
+    border: none;
+    background: #151414; 
+    margin-bottom: 15px;
+}
+.submit{
+width: 100px;
+height: 30px;
+color: white;
+background: #005FAC;
+border-radius: 8px;
+border: none;
+}
