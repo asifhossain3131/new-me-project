@@ -1,0 +1,102 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* header styles */
+.header{
+    background-image: url(banner/banner2.png); width: 100%;
+background-repeat: no-repeat; background-size: cover;
+height: 810px;
+}
+.header-items{
+    position: relative;
+}
+.header-title{
+    position: absolute;
+    top: 250px;
+    left: 870px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+
+}
+.header-description{
+position: absolute;
+top: 450px;
+left: 875px;
+right: 230px;
+font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
+.btn-primary{
+    position: absolute;
+    top: 600px ;
+    left: 1250px ;
+    width: 160px;
+height: 64px;
+border: none;
+background: #F15B22;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+}
+/* feature styles */
+.feature-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.feature-img{
+    margin-top: 150px;
+    width: 450px;
+    height: 650px;
+}
+.feature-info{
+    margin-top: 400px;
+    width: 416px;
+height: 400px;
+}
+.feature-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.feature-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.failure-list{
+    font-weight: 400;
+font-size: 16px; color: #444343;
+margin-top: 15px;
+}
+/* dream styles */
+.dream-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.dream-info{
+    margin-top: 250px;
+    width: 416px;
+height: 400px;
+}
+.dream-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.dream-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 20px;
+}
+.dream-img{
+    margin-top: 150px;
+    width: 600px;
+    height: 550px;
+}
